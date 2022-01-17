@@ -651,4 +651,12 @@ img {
   .interior-image {
     margin-bottom: 15px;
   }
+  .third-container {
+    padding: 20px 50px;
+    text-align: center;
+  }
+  .fourth-container {
+    padding: 20px 50px;
+    text-align: center;
+  }
 }

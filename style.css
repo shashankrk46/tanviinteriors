@@ -20,6 +20,9 @@ body {
 a {
   text-decoration: none;
 }
+a:focus {
+  outline: none;
+}
 .grid-mobile {
   display: none;
 }
@@ -488,6 +491,7 @@ img {
     color: #ffd700;
     text-transform: uppercase;
     letter-spacing: 4px;
+    font-size: 25px;
   }
   .m-link {
     font-size: 30px;
@@ -642,7 +646,7 @@ img {
     text-transform: uppercase;
     text-align: center;
     margin-left: -15px;
-    font-size: 20px;
+    font-size: 25px;
   }
   .interior-image {
     margin-bottom: 15px;

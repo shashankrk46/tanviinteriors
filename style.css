@@ -14,7 +14,7 @@
 html,
 body {
   font-family: "Alata", sans-serif;
-
+  background-color: var(--DarkGray);
   font-size: 15px;
 }
 a {
@@ -190,7 +190,14 @@ h2 {
   margin-top: 18px;
   padding-bottom: 80px;
   font-size: 18px;
-  color: var(--DarkGray);
+  color: var(--White);
+  line-height: 1.5;
+}
+.text-para-1 {
+  margin-top: 18px;
+  padding: 0px;
+  font-size: 17px;
+  color: var(--VeryDarkGray);
   line-height: 1.5;
 }
 .grid-container {
@@ -257,7 +264,8 @@ img {
   width: 100%;
   height: 300px;
   object-fit: cover;
-  border: 5px solid #ffd700;
+  border: 5px solid var(--White);
+  border-radius: 5px;
 }
 .bottom {
   background-color: var(--Black);

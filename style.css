@@ -46,7 +46,7 @@ a:focus {
   text-align: center;
   margin-bottom: 0px;
   padding: 0px 0px;
-  height: 140px;
+  height: 80px;
   background-color: var(--Black);
 }
 .main-container {
@@ -256,7 +256,9 @@ img {
   font-size: 30px;
 }
 .thanvi {
-  width: 130px;
+  /* width: 100%; */
+  object-fit: cover;
+  height: 80px;
   margin-left: 110px;
   padding: 0px 0px;
 }
@@ -646,7 +648,7 @@ img {
     padding: 20px 5px;
   }
   .thanvi {
-    width: 130px;
+    width: 90px;
     margin: 0px 0px;
     margin-left: -15px;
   }
